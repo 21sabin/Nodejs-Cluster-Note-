@@ -8,6 +8,7 @@ app.get("/", (req, res) => {
     this.onmessage = function () {
       let counter = 0;
       while (counter < 1e9) {
+        //1e9 is 10 followed by 9 0's 10,000,000,000
         counter++;
       }
 

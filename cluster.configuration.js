@@ -26,3 +26,10 @@ if (cluster.isMaster) {
  * pm2 mnanages the health of the instances
  * pm2 restarts the server if it crashes
  *  */
+
+/**
+ * For the better performance of Nodejs there are two approaches
+ * 1. Use Node in CLuster mode ( Recommended )
+ * 2.User worker Threads (Can use for the experimental puprose)
+ * Warning: Do not use 1 and 2 both in same application
+ */
